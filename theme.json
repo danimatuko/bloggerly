@@ -2,6 +2,7 @@
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
     "settings": {
+        "appearanceTools": true,
         "color": {
             "defaultPalette": false,
             "palette": [
@@ -109,6 +110,58 @@
                 }
             ]
         },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Rubik, sans-serif",
+                    "slug": "bloggery-rubik",
+                    "name": "Bloggery Rubik"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "0.75rem",
+                    "name": "Small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.25rem",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "large",
+                    "size": "2.25rem",
+                    "name": "Large"
+                },
+                {
+                    "slug": "x-large",
+                    "size": "3rem",
+                    "name": "Extra-Large"
+                },
+                {
+                    "slug": "huge",
+                    "size": "3.75rem",
+                    "name": "Huge"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ],
+            "blockGap": true
+        },
         "blocks": {
             "core/site-title": {
                 "color": {
@@ -123,12 +176,27 @@
                     "custom": false,
                     "gradients": [],
                     "customGradient": false
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "pacifico, sans-serif",
+                            "slug": "bloggery-pacifico",
+                            "name": "Bloggery Pacifico"
+                        }
+                    ]
                 }
             },
             "core/cover": {
                 "color": {
                     "duotone": [],
                     "custom": true
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
                 }
             }
         },
@@ -152,6 +220,11 @@
             }
         },
         "blocks": {
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--bloggery-pacifico)"
+                }
+            },
             "core/button": {
                 "color": {
                     "background": "var(--wp--preset--color--bloggery-primary)"
@@ -165,6 +238,30 @@
                     "color": "var(--wp--preset--color--bloggery-primary)"
                 }
             }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--bloggery-rubik)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "noraml",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "blockGap": "4rem"
         }
     }
 }
