@@ -1,0 +1,170 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "slug": "bloggery-white",
+                    "color": "rgb(255 255 255)",
+                    "name": "Bloggery White"
+                },
+                {
+                    "slug": "bloggery-gray-100",
+                    "color": "rgb(243 244 246)",
+                    "name": "Bloggery Gray 100"
+                },
+                {
+                    "slug": "bloggery-gray-200",
+                    "color": "rgb(229 231 235)",
+                    "name": "Bloggery Gray 200"
+                },
+                {
+                    "slug": "bloggery-gray-300",
+                    "color": "rgb(209 213 219)",
+                    "name": "Bloggery Gray 300"
+                },
+                {
+                    "slug": "bloggery-gray-400",
+                    "color": "rgb(156 163 175)",
+                    "name": "Bloggery Gray 400"
+                },
+                {
+                    "slug": "bloggery-gray-500",
+                    "color": "rgb(107 114 128)",
+                    "name": "Bloggery Gray 500"
+                },
+                {
+                    "slug": "bloggery-gray-600",
+                    "color": "rgb(75 85 99)",
+                    "name": "Bloggery Gray 600"
+                },
+                {
+                    "slug": "bloggery-gray-700",
+                    "color": "rgb(55 65 81)",
+                    "name": "Bloggery Gray 700"
+                },
+                {
+                    "slug": "bloggery-gray-800",
+                    "color": "rgb(31 41 55)",
+                    "name": "Bloggery Gray 800"
+                },
+                {
+                    "slug": "bloggery-gray-900",
+                    "color": "rgb(17 24 39)",
+                    "name": "Bloggery Gray 900"
+                },
+                {
+                    "slug": "bloggery-primary",
+                    "color": "rgb(239 68 68)",
+                    "name": "Bloggery Primary"
+                },
+                {
+                    "slug": "bloggery-accent",
+                    "color": "rgb(67 56 202)",
+                    "name": "Bloggery Accent"
+                },
+                {
+                    "slug": "bloggery-success",
+                    "color": "rgb(52 211 153)",
+                    "name": "Bloggery Success"
+                },
+                {
+                    "slug": "bloggery-info",
+                    "color": "rgb(96 165 250)",
+                    "name": "Bloggery Info"
+                },
+                {
+                    "slug": "bloggery-warning",
+                    "color": "rgb(251 146 60)",
+                    "name": "Bloggery Warning"
+                },
+                {
+                    "slug": "bloggery-danger",
+                    "color": "rgb(236 72 153)",
+                    "name": "Bloggery Danger"
+                }
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": false,
+            "duotone": [
+                {
+                    "slug": "bloggery-pink-sunset",
+                    "colors": [
+                        "#11245e",
+                        "#dc4379"
+                    ],
+                    "name": "Bloggery Pink Sunset"
+                }
+            ],
+            "defaultGradients": false,
+            "gradients": [
+                {
+                    "slug": "bloggery-summer-dog",
+                    "gradient": "linear-gradient(#a8ff78,#78ffd6)",
+                    "name": "Bloggery Summer Dog"
+                }
+            ]
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": true,
+                    "palette": [
+                        {
+                            "slug": "bloggery-primary",
+                            "color": "#ef4444",
+                            "name": "Bloggery Primary"
+                        }
+                    ],
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "custom": true
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--bloggery-gray-700)",
+            "background": "var(--wp--preset--color--bloggery-white)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--bloggery-primary)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "background": "var(--wp--preset--color--bloggery-primary)"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--bloggery-primary)"
+                }
+            }
+        }
+    }
+}
